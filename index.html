@@ -15,7 +15,7 @@
           background : #333;
           color : white;
           padding : 1rem;
-          text-align : center;
+          text-align : left;
         }
         main{
           padding : 20px;
@@ -35,15 +35,27 @@
   
   <body>
       <div class="card">
-        <h2> Meteorological Station Location </h2>
-        <iframe
-          src="https://www.openstreetmap.org/export/embed.html?bbox=105.0%2C-7.6%2C110.0%2C-7.8&amp;layer=cyclemap&amp;marker=-7.7382029%2C107.9675114"
-          width="80%"
-          height="400"
-          style="border:0;"
-          loading="lazy"
-          >
-        </iframe>
+        <h2> Location </h2>
+
+        <div class="content">
+          <div class="text">
+            <p><strong>Latitude:</strong> -7.7382029°</p>
+            <p><strong>Longitude:</strong> 107.9675114°</p>
+            <p><strong>Wind speed sensor:</strong> 10.0 and 15.0 meters</p>
+            <p><strong>Wind direction sensor:</strong> 15.0 meters</p>
+            <p><strong>Site elevation:</strong> 1.0 meter</p>
+            <p><strong>Data Sampling:</strong> 1 second</p>
+            <p><strong>Data Averaging:</strong> 10 minutes</p>
+          </div>
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=105.0%2C-7.6%2C110.0%2C-7.8&amp;layer=cyclemap&amp;marker=-7.7382029%2C107.9675114"
+            width="80%"
+            height="400"
+            style="border:0;"
+            loading="lazy"
+            >
+          </iframe>
+        </div>
       </div>
   </body>
 </html>
