@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  width: 35%;
+}
+
+.content iframe {
+  width: 65%;
+  border: 0;
+}
